@@ -1,5 +1,5 @@
 module.exports = (sequelize, DataTypes) => {
-    const Pegawai = sequelize.define("Pegawai", {
+    const Music = sequelize.define("Music", {
     id: {
         type: DataTypes.INTEGER,
         autoIncrement: true,
@@ -18,6 +18,6 @@ module.exports = (sequelize, DataTypes) => {
         type: DataTypes.STRING
     }
 });
-return Pegawai;
+return Music;
 }
         
